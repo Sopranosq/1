@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>killershop.stick.ws</title>
+    <meta name="description" content="Mobile-only interactive vertical poster with stacked cinematic character scenes and Telegram links.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="loading-screen" aria-hidden="true">
+        <div class="loading-screen__backdrop"></div>
+        <div class="loading-screen__mist loading-screen__mist--one"></div>
+        <div class="loading-screen__mist loading-screen__mist--two"></div>
+        <div class="loading-screen__mist loading-screen__mist--three"></div>
+        <div class="loading-screen__particles" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="loading-screen__stage">
+            <div class="loading-screen__logo-block">
+                <p class="loading-screen__eyebrow">SOPRANOS SHOP</p>
+                <h1 class="loading-screen__title">SOPRANOS<br>SHOP</h1>
+                <div class="loading-screen__line"><span></span></div>
+                <p class="loading-screen__text">ДОБРО ПОЖАЛОВАТЬ</p>
+            </div>
+            <div class="loading-screen__figure-wrap">
+                <img class="loading-screen__figure" src="assets/images/tony-channel.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+    <main class="poster-shell" id="top">
+        <div class="poster-rail" aria-label="Interactive vertical poster">
+            <a class="poster-character poster-character--brand reveal-item" href="https://t.me/+awKdb8xMVNtkYjE6" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram channel" data-parallax="0.1">
+                <img class="poster-character__image" src="assets/images/tony-channel.webp" alt="Killer Shop character">
+            </a>
+
+            <a class="poster-character poster-character--support reveal-item" href="https://t.me/+P13r00csZ-g0NDgy" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram chat" data-parallax="0.14">
+                <img class="poster-character__image" src="assets/images/chat.webp" alt="Chat Support character">
+            </a>
+
+            <a class="poster-character poster-character--signals reveal-item" href="https://t.me/Sopranos_admin" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram operator" data-parallax="0.18">
+                <img class="poster-character__image" src="assets/images/operator.webp" alt="Signals character">
+            </a>
+
+            <a class="poster-character poster-character--info reveal-item" href="https://t.me/Soprano1_shop_bot" target="_blank" rel="noopener noreferrer" aria-label="Open Telegram bot" data-parallax="0.12">
+                <img class="poster-character__image" src="assets/images/bot.webp" alt="Information character">
+            </a>
+        </div>
+    </main>
+</body>
+</html>
